@@ -8,14 +8,12 @@
 
 import UIKit
 
-class StinaButton: UIButton {
-
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
+class StinaButton: UIButton
+{
+    override func awakeFromNib()
+    {
+        layer.cornerRadius = 5.0
+        setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        backgroundColor = UIColor(red: 251.0/255.0, green: 3.0/255.0, blue: 33.0/255.0, alpha: 1.0)
     }
-    */
-
 }
