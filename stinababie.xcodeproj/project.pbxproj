@@ -12,6 +12,7 @@
 		76FCCAB01C33916E00E14939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FCCAAE1C33916E00E14939 /* Main.storyboard */; };
 		76FCCAB21C33916E00E14939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FCCAB11C33916E00E14939 /* Assets.xcassets */; };
 		76FCCAB51C33916E00E14939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FCCAB31C33916E00E14939 /* LaunchScreen.storyboard */; };
+		76FCCABD1C3398C800E14939 /* StinaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FCCABC1C3398C800E14939 /* StinaButton.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		76FCCAB11C33916E00E14939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76FCCAB41C33916E00E14939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76FCCAB61C33916E00E14939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76FCCABC1C3398C800E14939 /* StinaButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StinaButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				76FCCAB11C33916E00E14939 /* Assets.xcassets */,
 				76FCCAB31C33916E00E14939 /* LaunchScreen.storyboard */,
 				76FCCAB61C33916E00E14939 /* Info.plist */,
+				76FCCABC1C3398C800E14939 /* StinaButton.swift */,
 			);
 			path = stinababie;
 			sourceTree = "<group>";
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FCCABD1C3398C800E14939 /* StinaButton.swift in Sources */,
 				76FCCAAD1C33916E00E14939 /* ViewController.swift in Sources */,
 				76FCCAAB1C33916E00E14939 /* AppDelegate.swift in Sources */,
 			);
@@ -285,6 +289,7 @@
 				76FCCABB1C33916E00E14939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
